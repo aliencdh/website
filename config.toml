@@ -1,3 +1,14 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "AlienCDH"
+theme = "terminal"
+
+[menu]
+[[menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+[[menu.main]]
+name = "Projects"
+pageRef = "/projects"
+weight = 20
