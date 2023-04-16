@@ -1,6 +1,7 @@
 +++
 title = "UGSG"
 date = "2023-04-16"
+tags = ["projects", "ugsg"]
 +++
 #### [UGSG](/ugsg)
 > UGSG stands for **U**ntitled **G**rand **S**trategy **G**ame and it is, as the name suggests,
