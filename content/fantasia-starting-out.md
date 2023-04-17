@@ -27,11 +27,10 @@ cargo new --lib fantasia
 cd fantasia
 ```
 
-For now, I think we should only have 2 dependencies: 
-the [image](https://crates.io/crates/image) and [wasm-bindgen](https://crates.io/crates/wasm-bindgen) crates.
+For now, I think we should only have 1 dependency: 
+the [image](https://crates.io/crates/image) crate.
 ```bash
-cargo add image wasm-bindgen
+cargo add image
 ```
-[wasm-bindgen](https://crates.io/crates/wasm-bindgen) is here to make the renderer usable on the web as well.
-
-[image](https://crates.io/crates/image) is here so that we can more easily test it.
+This crate isn't actually needed for the renderer itself, but it provides a nice and simple way to test it.
+It will be removed later on.
