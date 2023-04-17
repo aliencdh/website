@@ -1,7 +1,7 @@
 +++
 title = "fantasia"
 date = "2023-04-16"
-tags = ["projects", "fantasia"]
+tags = ["fantasia"]
 +++
 
 > A 3D renderer I decided to write as a practice project, in Rust, with as few dependencies as possible. 
@@ -17,4 +17,9 @@ have to somehow try to understand what was going on before adapting it to Rust.
 2. I simply like the safety of Rust, and how it makes it so that I have much fewer things to worry about
 than in C.
 
-You can also check out my progress on [GitHub](https://github.com/aliencdh/fantasia).
+But... The book just didn't work that well for me, no offense to the author.
+It explained certain concepts in a way that I just couldn't understand, and sometimes it didn't explain them at all.
+So I stumbled around trying my best to come up with my own solutions where I could, until it all started clicking for me.
+Hoping to make this process easier for other people, I've decided to try and write a guide for it.
+
+You can also check out my code on [GitHub](https://github.com/aliencdh/fantasia).
