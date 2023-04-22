@@ -146,4 +146,4 @@ Steps:
 3. Create a new `output.png` file and write the resulting image there.
 
 And this is what we get:
-{{< figure src="/output.png" caption="the output, 400x400 black PNG image" >}}
+{{< figure src="/fantasia/output.png" caption="the output, 400x400 black PNG image" >}}

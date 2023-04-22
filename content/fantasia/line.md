@@ -72,7 +72,7 @@ impl Mul<Point> for f32 {
 The actual algorithm
 --------------------
 Let's think about our line segment as a difference of 2 vectors: `A` and `B`.
-{{< figure src="/fantasia-line-algorithm-vectors.svg" caption="representation of A, B, and their difference" >}}
+{{< figure src="/fantasia/fantasia-line-algorithm-vectors.svg" caption="representation of A, B, and their difference" >}}
 
 You can get any point on a vector's trajectory by multiplying it with a scalar, let's call it `t`.
 In the above figure you can clearly see exactly that.
@@ -162,7 +162,7 @@ fn main() {
 
 And now if we run it...
 
-![](/fantasia-line-output-uh-oh.png)
+![](/fantasia/fantasia-line-output-uh-oh.png)
 
 *oh no...*
 
@@ -175,7 +175,7 @@ But we can fix this!
 
 By adding `t(B-A)` to `A` like in the figure below, we can find where the point actually needs to be.
 
-{{< figure src="/fantasia-line-algorithm-vectors2.svg" caption="the vector C points to the correct point" >}}
+{{< figure src="/fantasia/fantasia-line-algorithm-vectors2.svg" caption="the vector C points to the correct point" >}}
 
 Fixing it should be as simple as this:
 ```rust
@@ -190,7 +190,7 @@ pub fn line(/* ... */) {
 ```
 
 And the result is...
-![yet another failure](/fantasia-line-output-uh-oh2.png)
+![yet another failure](/fantasia/fantasia-line-output-uh-oh2.png)
 
 > **Author's note**: I initially thought of cutting the failures out of the guide. 
 But I've now decided against doing that. Failing is an important part of understanding how something works,
@@ -225,6 +225,6 @@ to the top left corner.
 
 And now, *finally*...
 -------------------
-![](/fantasia-line-output-success.png)
+![](/fantasia/fantasia-line-output-success.png)
 
 You did it! You've just a the traditional first triangle!
