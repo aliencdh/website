@@ -227,4 +227,4 @@ And now, *finally*...
 -------------------
 ![](/fantasia/fantasia-line-output-success.png)
 
-You did it! You've just a the traditional first triangle!
+You did it! You've just rendered the traditional first triangle!
